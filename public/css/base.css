@@ -244,12 +244,13 @@ header {
 }
 
 .header-mobile,
-.modal-menu {
+.modal-menu,
+.modal-search {
     display: none;
 }
 
 /* Mobile / Tablet */
-@media (max-width: 739px) {
+@media (max-width: 1024px) {
     /* Header */
     header {
         display: none;

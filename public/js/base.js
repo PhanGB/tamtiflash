@@ -31,7 +31,7 @@ let cart = [];
             let total = 0;
 
             if (cart.length === 0) {
-                cartItems.html('<li class="list-group-item text-center">Giỏ hàng đang trống!</li>');
+                cartItems.html('<li class="list-group-item text-center" style="width: 400px; font-size:15px;">Giỏ hàng đang trống!</li>');
                 $('#total-price').text('0');
             } else {
                 cart.forEach(item => {

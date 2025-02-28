@@ -22,10 +22,10 @@
             <img src="../images/logo/logo.png" alt="TamTiFlash" class="header-logo" />
         </a>
         <ul class="header-menu">
-            <li class="header-menu__item header-menu__item--active">
+            <li class="header-menu__item ">
                 <a href="">Trang chủ</a>
             </li>
-            <li class="header-menu__item">
+            <li class="header-menu__item header-menu__item--active">
                 <a href="">Sản phẩm</a>
             </li>
             <li class="header-menu__item">
@@ -131,17 +131,24 @@
 <!-- ---------------------------content---------------------------- -->
     <div class="container mt-4">
         <div class="row">
-            <div class="col-md-9">
+            <div>
+                <h1> <i class="fa fa-home" style="color: green;"></i> Quán Ngũ Long</h1>
+                <div style="width: 200px;; height: 1px; background-color: green;"></div>
+                <h3 class="text-muted">Giờ mở cửa: 6h - 22h</h3>
+                <span class="text-muted" style="font-size: 16px; font-weight: bold;"><i class="fa fa-star text-warning" ></i> 4.5</span>
+            </div>
+            <div class="col-md-8">
+                <div class="text-quantity-products">150 sản phẩm</div>
                 <div class="space"></div>
                 <h2>Combo</h2>
                 <div class="row" id="product-list">
-                    <div class="col-md-6 mb-3 product" data-id="1" data-name="Bánh tráng cuốn" data-price="25000" data-image="image1.jpg">
+                    <div class="col-md-6 mb-3 product" data-id="1" data-name="Bánh tráng cuốn + Trà chanh giã tay không đường" data-price="25000" data-image="image1.jpg">
                         <div class="card p-3 shadow-sm">
                             <div class="d-flex">
                                 <img src="image1.jpg" class="img-fluid rounded"
                                     style="width: 100px; height: 100px; object-fit: cover;">
                                 <div class="ms-3">
-                                    <h3 class="mb-1">Bánh tráng cuốn</h3>
+                                    <h3 class="mb-1">Bánh tráng cuốn + Trà chanh giã tay không đường</h3>
                                     <a href="#"><p class="mb-1"><i class="fas fa-home text-success"></i> Quán Ngũ Long | <span
                                         class="text-muted">100 đã bán</span></p></a>
                                     <p class="mb-1"><strong class="text-success">25.000đ</strong> <del
@@ -347,7 +354,7 @@
             <div class="col-md-3">
                 <div class="filter-category mb-4">
                     <span class="name-filter-category">Sắp xếp theo: </span>
-                    <select name="category" id="category" class="form-select w-50">
+                    <select name="category" id="category" class="form-select select-category w-50">
                         <option value="">Tất cả</option>
                         <option value="0">Combo</option>
                         <option value="1">Món ăn</option>
@@ -356,7 +363,6 @@
                 </div>
                 <h3> <i class="fa-solid fa-cart-shopping" style="color: green;"></i> Giỏ hàng của tôi</h3>
                 <ul id="cart-items" class="list-group mb-3">
-
                 </ul>
                 <h4>Tổng tiền: <span id="total-price">0</span>đ</h4>
                 <button class="btn btn-primary btn-success w-50 h-20" id="checkout" style="font-size: medium;">Thanh toán</button>

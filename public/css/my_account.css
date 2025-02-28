@@ -1,0 +1,138 @@
+
+
+
+/* Start Menu account desktop */
+.myAccount {
+    margin: 100px 0;
+}
+
+.myAccount__nav-desktop{
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.myAccount__menu{
+    padding: 0;
+    margin: 0;
+}
+.myAccount__item{
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.myAccount__menu-item{
+    list-style: none;
+    padding: 20px 0;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.myAccount__menu-item:hover{
+    background-color: #007C2B;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.myAccount__menu-item .myAccount__menu-link{
+    text-decoration: none;
+    color: black;
+}
+
+.myAccount__menu-item:hover .myAccount__menu-link{
+    color: #ffffff;
+}
+
+/* End Menu account desktop */
+
+
+
+
+
+/* Start content */
+.myAccount__content-title{
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.myAccount__content-info, .myAccount__content-address{
+    border:1px solid #ccc;
+    padding: 0;
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.myAccount__info-title{
+    border-bottom: 1px solid #ccc;
+    background-color: #007C2B;
+}
+
+.myAccount__info-title h2{
+    font-size: 18px;
+    padding: 20px 10px;
+    color: #fff;
+    margin: 0;
+}
+.myAccount__info-item{
+    font-size: 16px;
+    padding: 10px;
+}
+/* End contect */
+
+
+
+
+
+/* start button and link */
+.myAccount__item-btn{
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.myAccount__item-link{
+    color: #007C2B;
+    text-decoration: underline;
+}
+/* End button and link */
+
+
+
+/* start style border */
+.border-bottom-radius{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.border-top-radius{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* End style border */
+
+
+
+
+/* Mobile / Tablet */
+@media (max-width: 1024px){
+/* Start Menu account mobile */
+
+    .myAccount {
+        margin: 50px 0;
+    }
+
+    .myAccount__nav-mobile{
+        text-align: center;
+        margin: 50px 20px;
+    }
+    .myAccount__title{
+        border-bottom: 1px solid #ccc;
+    }
+    .myAccount__menu-item{
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+    }
+/* End Menu account mobile */
+}
